@@ -84,7 +84,6 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-9 cart-wrapper">
-
         <nav id="menu" class="navbar">
           <div class="navbar-header"><span class="toggle-top-text hidden-lg hidden-md hidden-sm"><?php echo $text_information; ?>:</span>
             <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>

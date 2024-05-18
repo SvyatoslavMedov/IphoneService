@@ -29,6 +29,9 @@ header
 				color: #fff
 				text-decoration: none
 
+a
+	outline: none!important			
+
 
 ul.col-md-3
 	margin: 0
@@ -145,6 +148,54 @@ ul.col-md-3
 	margin-right: 0
 
 
+.owl-wrapper-outer
+	border: none
+	box-shadow: none
+	border-radius: 0
+
+
+
+.owl-carousel .owl-buttons div i	
+	font-size: 20px
+	opacity: .4
+
+.top-menu
+	margin-bottom: 	40px
+
+.list-group-item
+	padding: 11px 15px
+	border-color: #EDEDED
+	transition: background .25s ease, color .25s ease, text-indent .25s ease, border-color .25s ease
+	border:
+		bottom: 1px transparent solid
+		top: 1px transparent solid
+	&:first-child
+		border-radius: 0
+		border-top: 1px #EDEDED solid
+	&:last-child
+		border-radius: 0
+		border-bottom: 1px #EDEDED solid
+
+a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover
+	background-color: $accent2
+	border-color: $accent2
+	color: #fff
+	text-indent: 10px
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover
+	background-color: darken($accent2, 5%)
+	border-color: darken($accent2, 5%)
+	text-indent: 10px			
+
+
+#carousel0 div
+	display: none
+	
+	
+
+
+
+
 @import "media"
 
-// 01:47:20
+// 00:18:52
