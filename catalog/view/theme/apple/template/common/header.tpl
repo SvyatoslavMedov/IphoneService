@@ -32,6 +32,10 @@
 <?php } ?>
 <?php foreach ($scripts as $script) { ?>
 <script src="<?php echo $script; ?>" type="text/javascript"></script>
+
+<!-- <script src="catalog/view/theme/apple/js/theme.js"></script> -->
+
+
 <?php } ?>
 
 <script src="catalog/view/theme/apple/libs/equalHeights/equalheights.js"></script>
